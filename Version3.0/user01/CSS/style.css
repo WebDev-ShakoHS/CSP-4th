@@ -22,3 +22,7 @@ th {
 #rankings tr td img {
     max-width: 50px;
 }
+
+#rankings tr td img {
+    max-width: 100px;
+}
