@@ -3,6 +3,8 @@
 <!--Version 3.0
         Name:
         Date Completed:
+    -->
+
 <head>
 
     <title>Music for Web Dev User ## </title>
@@ -35,14 +37,6 @@
             font-size: 12px;
             text-align: center;
         }
-        
-        #songs tr td img {
-            height: 200px;
-            width: 200px;
-            max-height: 200px;
-            max-width: 200px;
-
-        }
     </style>
 </head>
 
@@ -59,13 +53,13 @@
                 <ul class="navbar-nav me-auto">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="aboutMe.html" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="music.html" class="nav-link">Music</a>
+                        <a href="music.html" class="nav-link active">Music</a>
                     </li>
                     <li class="nav-item">
                         <a href="list.html" class="nav-link">Lists</a>
@@ -90,8 +84,7 @@
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
         <h2>My Top 5 Favorite Songs</h2>
-        <table id="songs">
-
+        <table id="rankings">
             <thead>
                 <tr>
                     <th>Rank</th>
@@ -102,61 +95,43 @@
             </thead>
             <tr>
                 <td>1</td>
-                <td>Modern Talking </td>
-                <td>Cheri Cheri Lady</td>
-                <td><img src=https://upload.wikimedia.org/wikipedia/en/6/63/Modern_Talking_-_Back_for_Good.jpg></td>
+                <td>NBA Youngboy</td>
+                <td>Diamond Teeth Samurai</td>
+                <td>
+                    <image src="images/youngboy.jpeg" alt="angelic photo of king youngboy"></image>
+                </td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Modern Talking</td>
-                <td>Brother Louie Louie Louie</td>
-                <td><img src=https://i.discogs.com/KIUfn34q1hwkqy91qmEJ5ZDZw-k53MA74xdJ7BP-opo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NjAw/NTgtMTU1Njk3NTY2/NC02NDE2LnBuZw.jpeg></td>
+                <td>Playboi Carti</td>
+                <td>Magnolia</td>
+                <td>
+                    <image src="https://i1.sndcdn.com/artworks-JobTcW4e04zEPMEC-Mio4Pw-t500x500.jpg" alt="album cover of magnolia"></image>
+                </td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Modern Talking</td>
-                <td>Geranimos Cadillac</td>
-                <td><img src=mt.jpeg alt="album cover of Modern Talking" </td>
+                <td>Shotta Flow 7</td>
+                <td>NLE Choppa</td>
+                <td>
+                    <image src="https://i.ytimg.com/vi/fCRCLsJQWUQ/maxresdefault.jpg"></image>
+                </td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Modern Talking</td>
-                <td>Sexy Sexy Lover</td>
-                <td><img src=https://upload.wikimedia.org/wikipedia/en/f/f7/Sexy_Sexy_Lover.jpg></td>
+                <td>Cinderella</td>
+                <td>Future</td>
+                <td>
+                    <image src="https://i.ytimg.com/vi/fCRCLsJQWUQ/maxresdefault.jpg"></image>
+                </td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Modern Talking</td>
-                <td>Atlantis is Calling</td>
-                <td><img src=https://upload.wikimedia.org/wikipedia/en/1/1f/Modern_Talking_-_Atlantis_Is_Calling.jpg></td>
-                <td style="background-color: aqua;">Polo G</td>
-                <td>Heartless</td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Polo_G_-_The_Goat.png" alt="Picture of the Polo G GOAT album. It has a Picture of Polo G wearing dark clothing, sunglasses with a gold chain that reads capalot."></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Lil baby</td>
-                <td>Life goes on</td>
-                <td><img src="https://i1.sndcdn.com/artworks-rxinvzJnYRiq-0-t500x500.jpg"></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Internet Money</td>
-                <td>I Remember</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Lil Baby</td>
-                <td>Never Needed No Help</td>
-                <td><img scr="" alt="Harder than ever album cover"></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Lil Tjay</td>
-                <td>Beat The Odds</td>
-                <td></td>
-
+                <td>IDGAF</td>
+                <td>Drake</td>
+                <td>
+                    <image src="https://i1.sndcdn.com/artworks-8Xu8JNjUFCsS-0-t500x500.jpg"></image>
+                </td>
             </tr>
         </table>
     </main>
@@ -166,7 +141,7 @@
     <!---------------------------------- Begin the footer ------------->
     <footer>
         <div>
-            Music can be found here <a href="https://music.amazon.com"> Amazon Music</a>
+            Music can be found here <a href=" https://music.amazon.com "> Amazon Music</a>
         </div>
     </footer>
     <!---------------------------------- End the footer ------------->
